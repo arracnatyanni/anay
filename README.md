@@ -27,3 +27,4 @@ Social-media links can be edited in `index.html`.
 ## Important
 
 This is a static website. No paid hosting is required for GitHub Pages.
+![image alt]()https://github.com/arracnatyanni/anay/blob/92c4b3c906966ccddd88447c5977e1a4a6d851bf/5%20membres/1.png

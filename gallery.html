@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery — ANAY</title>
+<meta name="description" content="Archive média du groupe ANAY — live, backstage, répétitions.">
+<link rel="icon" href="assets/logo-mark.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="is-loaded">
+
+<div class="veil"><img src="assets/logo-mark.png" alt=""></div>
+
+<div class="atmosphere" aria-hidden="true">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div class="grain"></div>
+</div>
+
+<header class="site-nav">
+  <a href="index.html" class="nav-brand" data-transition>
+    <img src="assets/logo-mark.png" alt="ANAY">
+    <span>ANAY</span>
+  </a>
+  <nav class="nav-links">
+    <a href="index.html#about" data-transition>About</a>
+    <a href="index.html#music" data-transition>Music</a>
+    <a href="index.html#videos" data-transition>Videos</a>
+    <a href="gallery.html" class="is-active">Gallery</a>
+    <a href="index.html#live" data-transition>Live</a>
+    <a href="index.html#booking" data-transition>Booking</a>
+    <a href="index.html#contact" data-transition>Contact</a>
+  </nav>
+  <div class="nav-cta">
+    <a href="index.html#booking" class="btn btn-sm" data-transition>Book ANAY</a>
+    <button class="nav-toggle" aria-label="Menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu">
+  <ul>
+    <li><a href="index.html#about" data-transition>About</a></li>
+    <li><a href="index.html#music" data-transition>Music</a></li>
+    <li><a href="index.html#videos" data-transition>Videos</a></li>
+    <li><a href="gallery.html" data-transition>Gallery</a></li>
+    <li><a href="index.html#live" data-transition>Live</a></li>
+    <li><a href="index.html#booking" data-transition>Booking</a></li>
+    <li><a href="index.html#contact" data-transition>Contact</a></li>
+  </ul>
+  <div class="mobile-menu-foot">
+    <a href="index.html" data-transition>Accueil</a>
+  </div>
+</div>
+
+<main>
+  <section class="subhero">
+    <img class="hero-mark" src="assets/logo-mark.png" alt="">
+    <h1 class="subhero-title">La galerie</h1>
+    <p class="subhero-kicker">ARCHIVE MÉDIA — LIVE / BACKSTAGE / RÉPÉTITIONS</p>
+  </section>
+
+  <section class="section section-tight">
+    <div class="container">
+      <div class="gallery-filters reveal">
+        <button class="filter-chip is-active" data-filter="all">Tout</button>
+        <button class="filter-chip" data-filter="live">Live</button>
+        <button class="filter-chip" data-filter="backstage">Backstage</button>
+        <button class="filter-chip" data-filter="rehearsals">Répétitions</button>
+        <button class="filter-chip" data-filter="performances">Performances</button>
+        <button class="filter-chip" data-filter="other">Autre</button>
+      </div>
+
+      <div class="gallery-grid reveal-stagger">
+        <div class="gallery-card" data-cat="live" style="background-image:url('assets/stage.jpg')">
+          <span class="tag">Live</span>
+          <span class="cap">Hommage à Idir — Mai 2026</span>
+        </div>
+
+        <div class="gallery-card is-empty" data-cat="live">
+          <span class="plus">+</span>
+          <span class="label">Média live à ajouter</span>
+        </div>
+        <div class="gallery-card is-empty" data-cat="backstage">
+          <span class="plus">+</span>
+          <span class="label">Média backstage à ajouter</span>
+        </div>
+        <div class="gallery-card is-empty" data-cat="rehearsals">
+          <span class="plus">+</span>
+          <span class="label">Média répétition à ajouter</span>
+        </div>
+        <div class="gallery-card is-empty" data-cat="performances">
+          <span class="plus">+</span>
+          <span class="label">Média performance à ajouter</span>
+        </div>
+        <div class="gallery-card is-empty" data-cat="other">
+          <span class="plus">+</span>
+          <span class="label">Autre média à ajouter</span>
+        </div>
+      </div>
+
+      <p class="section-lede" style="margin-top:36px; max-width:60ch;">
+        Cette galerie est prête à recevoir de nouveaux contenus — photos, vidéos YouTube, Vimeo ou fichiers MP4 — au fil des prochaines dates et répétitions, sans changement de mise en page.
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo-wordmark.png" alt="ANAY">
+        <p>Arrac n At Yanni — Music Group</p>
+        <p class="footer-slogan">Nos racines. Notre son.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>NAVIGATION</h4>
+          <a href="index.html#about" data-transition>About</a>
+          <a href="index.html#music" data-transition>Music</a>
+          <a href="about.html" data-transition>À propos</a>
+        </div>
+        <div class="footer-col">
+          <h4>GROUPE</h4>
+          <a href="index.html#live" data-transition>Live</a>
+          <a href="index.html#booking" data-transition>Booking</a>
+          <a href="index.html#contact" data-transition>Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© ANAY — All rights reserved.</span>
+      <a href="#top" class="to-top">BACK TO TOP ↑</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
